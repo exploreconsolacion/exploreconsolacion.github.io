@@ -3,42 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ExploreConsolacion</title>
     <style>
-        @import url('https://raw.githubusercontent.com/kaspernordkvist/uncut_sans/main/Webfonts/UncutSans-Medium.woff');
-        @import url('https://raw.githubusercontent.com/kaspernordkvist/uncut_sans/main/Webfonts/UncutSans-Semibold.woff');
+        @font-face {
+            font-family: 'Uncut Sans';
+            src: url('https://raw.githubusercontent.com/kaspernordkvist/uncut_sans/main/Webfonts/UncutSans-Variable.woff2') format('woff2');
+            font-weight: 300 700;
+            font-style: normal;
+        }
         * {
             font-family: 'Uncut Sans', sans-serif;
-        }
-        h1 {
-            font-size: 135px;
-        }
-        h2 {
-            font-size: 100px;
-        }
-        h3 {
-            font-size: 48px;
-        }
-        h1, h2 {
-            line-height: 1;
-            font-weight: 600;
-        }
-        h3 {
-            line-height: 1;
-            font-weight: 500;
-        }
-        p {
-            font-size: 24px;
-            font-weight: 500;
-            line-height: 28px;
+            box-sizing: border-box;
+            margin: 0;
         }
     </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Events and Festivals</h1>
-    <h2>Sarok Festival<br>February 14</h2>
-    <h3>Nav</h3>
-    <p>Text</p>>
 
+<body class="p-12 bg-[#111]
+            font-medium leading-none
+            flex justify-center align-items-center">
+
+    <div class="w-[75%] min-w-[20rem] max-w-[80rem] p-8 bg-white
+                grid grid-cols-4 gap-[1.5rem]
+                md:grid-cols-6 xl:grid-cols-8">
+            
+        <h1 class="
+            col-span-full
+            text-5xl font-semibold
+            md:text-7xl">
+            Events and Festivals
+        </h1>
+        <h1 class="
+            col-start-2 col-span-full
+            text-4xl font-semibold
+            md:text-5xl">
+            Sarok Festival<br>
+            February 14
+        </h1>
+        <div class="bg-red-50">e</div>
+        <div class="bg-red-50">e</div>
+        <div class="bg-red-50">e</div>
+        <div class="bg-red-50">e</div>
+        <div class="bg-red-50">e</div>
+        <div class="bg-red-50">e</div>
+        <div class="bg-red-50">e</div>
+        <div class="bg-red-50">e</div>
+
+    </div>
 </body>
 </html>
