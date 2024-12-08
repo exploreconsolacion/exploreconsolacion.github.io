@@ -11,44 +11,56 @@
             font-weight: 300 700;
             font-style: normal;
         }
+        @font-face {
+            font-family: 'Wagon';
+            src: url('Wagon-Bold.otf') format('opentype');
+            font-weight: 700;
+            font-style: normal;
+        }
         * {
             font-family: 'Uncut Sans', sans-serif;
             box-sizing: border-box;
             margin: 0;
         }
+        .wagon {
+            font-family: 'Wagon', serif;
+        }
     </style>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="p-12 bg-[#111]
+<body class="min-h-screen p-12 bg-[#111]
             font-medium leading-none
             flex justify-center align-items-center">
 
     <div class="w-[75%] min-w-[20rem] max-w-[80rem] p-8 bg-white
-                grid grid-cols-4 gap-[1.5rem]
-                md:grid-cols-6 xl:grid-cols-8">
+                flex flex-col items-start">
             
-        <h1 class="
-            col-span-full
-            text-5xl font-semibold
-            md:text-7xl">
+        <a class="ml-auto mb-auto text-right hover:text-[#D84315]"
+            href="sarokfestival1">
+            Close
+        </a>
+        
+        <a class="text-7xl font-semibold hover:text-[#D84315] hover:font-bold"
+            href="../aboutus">
+            About us
+        </a>
+        <a class="text-7xl font-semibold hover:text-[#D84315] hover:font-bold"
+            href="../attractions">
+            Attractions
+        </a>
+        <a class="text-7xl font-semibold hover:text-[#D84315] hover:font-bold"
+            href="../eventsandfestivals">
             Events and Festivals
-        </h1>
-        <h1 class="
-            col-start-2 col-span-full
-            text-4xl font-semibold
-            md:text-5xl">
-            Sarok Festival<br>
-            February 14
-        </h1>
-        <div class="bg-red-50">e</div>
-        <div class="bg-red-50">e</div>
-        <div class="bg-red-50">e</div>
-        <div class="bg-red-50">e</div>
-        <div class="bg-red-50">e</div>
-        <div class="bg-red-50">e</div>
-        <div class="bg-red-50">e</div>
-        <div class="bg-red-50">e</div>
+        </a>
+        <a class="text-7xl font-semibold hover:text-[#D84315] hover:font-bold"
+            href="../foodandculture">
+            Food and Culture
+        </a>
+        <a class="text-7xl font-semibold hover:text-[#D84315] hover:font-bold"
+            href="../contact">
+            Contact
+        </a>
 
     </div>
 </body>
