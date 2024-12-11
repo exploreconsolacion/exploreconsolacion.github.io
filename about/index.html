@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutUs</title>
+    <style>
+        @font-face {
+            font-family: 'Uncut Sans';
+            src: url('https://raw.githubusercontent.com/kaspernordkvist/uncut_sans/main/Webfonts/UncutSans-Variable.woff2') format('woff2');
+            font-weight: 300 700;
+            font-style: normal;
+        }
+        * {
+            font-family: 'Uncut Sans', sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-12 bg-[#111]
+            font-medium leading-none
+            flex justify-center align-items-center">
+
+    <div class="w-[75%] min-w-[20rem] max-w-[80rem] p-8 bg-white
+                grid grid-cols-1 gap-[1.5rem]
+                sm:grid-cols-4 xl:grid-cols-8">
+        <h1 class="
+                col-span-full
+                text-5xl font-semibold
+                md:text-7xl">
+                About Consolacion
+        </h1>
+        <img class="col-span-full object-cover max-h-[30rem] w-full"
+            src="AboutUswelcome.jpg"
+            alt="San Narciso Parish">
+        <p class="
+            col-span-full
+            sm:col-start-2 text-justify">
+            Consolacion’s journey began in 1871, when it transitioned from a small barrio of Mandaue into an independent town, 
+            thanks to the vision of its first leader, Juan Villamor. Named after the daughter of the Spanish Governor as a gesture
+             of gratitude, Consolacion has grown into a thriving municipality while cherishing its deep cultural and historical roots.
+            <br><br>From the early construction of its first municipal building and church, to surviving typhoons, wartime destruction,
+             and financial challenges, Consolacion’s resilience has defined its character. Its rich heritage is preserved through
+              landmarks like the San Narciso Parish Church and traditions like the sarok-making craft.
+            <br><br>Today, Consolacion continues to balance modern development with its historical identity, embodying the enduring spirit of its community.
+        </p>
+        <h2 class="
+            col-span-full mt-20
+            text-4xl font-semibold
+            md:text-5xl
+            xl:col-start-2">
+            Explore Our Roots and Culture
+        </h2>
+
+        <div class="col-span-full w-full flex flex-col xl:flex-row xl:justify-between gap-6  xl:flex">
+            <div class="flex flex-col w-full xl:w-1/3 overflow-hidden group hover:w-full transition-all ease-in-out duration-300">
+                <a href="History/index.html"><img src="HistoryCarousel.jpg" class="min-h-64 h-64 sm:h-96 w-full xl:max-h-96 xl:min-h-96 object-cover" />
+                    </a>
+                <div class="flex flex-col pr-4 pt-4 pb-4 h-0 hidden overflow-hidden group-hover:h-auto group-hover:flex transition-all ease-in-out duration-300 gap-6">
+                    <h2 class="font-semibold text-4xl md:text-5xl">The Birth of Consolacion
+                    </h2>
+                    <p class="text-base leading-none">
+                        Explore the story of how consolacion grew from a humble fishing village to a progressive municipality
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-col w-full xl:w-1/3 overflow-hidden group hover:w-full transition-all ease-in-out duration-300">
+                <a href="Historical Sites/index.html"><img src="HistoricalSitesCarousel.jpg" class="min-h-64 w-full xl:max-h-96 xl:min-h-96 object-cover" />
+                    </a>
+                <div class="flex flex-col pr-4 pt-4 pb-4 h-0 hidden overflow-hidden group-hover:h-auto group-hover:flex transition-all ease-in-out duration-300 gap-6">
+                    <h2 class="font-semibold text-4xl md:text-5xl">Treasures of the Past</h2>
+                    <p class="text-base leading-none">
+                        Discover the landmarks that define our rich history and culture.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-col w-full xl:w-1/3 overflow-hidden group hover:w-full transition-all ease-in-out duration-300">
+                <a href="../eventsandfestivals"><img src="EventsAndFestivalCarousel.jpg" class="min-h-64 w-full xl:max-h-96 xl:min-h-96 object-cover" />
+                    </a>
+                <div class="flex flex-col pr-4 pt-4 pb-4 h-0 hidden overflow-hidden group-hover:h-auto group-hover:flex transition-all ease-in-out duration-300 gap-6">
+                    <h2 class="font-semibold text-4xl md:text-5xl">Traditions and Triumphs</h2>
+                    <p class="text-base leading-none">
+                        Celebrate Consolacion’s unique culture and cherished traditions.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="
+            col-span-full mt-20
+            text-4xl font-semibold
+            sm: 
+            md:text-5xl">
+            Leadership and Government
+        </h2>
+
+        <div class="col-span-full flex flex-col gap-6
+                sm:col-span-2">
+            <img class="w-full object-cover min-h-40"
+                src="Mayor.jpg"
+                alt="Mayor">
+            <p class="text-2xl leading-none font-semibold">
+                Teresa Pepito Alegado <br> <span class="text-[#D84315]">Mayor</span>
+            </p>
+        </div>
+
+        <div class="hidden
+                    sm:flex sm:col-start-3 sm:col-span-2
+                    xl:hidden">
+
+        </div>
+
+        <div class ="col-span-full flex flex-col gap-6
+                sm:col-span-2 sm:col-start-3
+                xl:col-start-4">
+            <img class="w-full object-cover min-h-40
+                    "
+                src="ViceMayor.jpg"
+                alt="Vice Mayor">
+            <p class=" text-2xl leading-none font-semibold">
+                Aurelio A. Damole <br> <span class="text-[#D84315]">Vice Mayor</span>
+            </p>
+        </div>
+
+        <div class="col-span-full flex flex-col gap-6
+                sm:col-span-2
+                xl:col-start-7">
+            <img class="w-full object-cover min-h-40"
+                src="Representative.jpg"
+                alt="Representative">
+            <p class="text-2xl leading-none font-semibold">
+                Daphne A. Lagon <br> <span class="text-[#D84315]">Representative</span>
+            </p>
+        </div>
+        <p class="col-span-full text-2xl text-right font-semibold
+                sm:col-start-2
+                xl:col-start-3 xl:col-span-3 xl:text-left">
+            Municipal Council
+        </p>
+        <p class="col-span-full -mt-6
+                sm:col-span-2 sm:text-right
+                xl:col-start-3 xl:col-span-2 xl:text-left">
+            Alfred Francis M. Ouano <br> Lalinka B. Villo <br> Fredelino T. Herrera <br> Brando P. Cuizon
+        </p>
+        <p class="col-span-full -mt-6
+                sm:col-start-3 sm:text-right
+                xl:col-start-5 xl:col-span-2 xl:text-left">
+            Marilou P. Casul <br> Leo B. Napuli <br> Bienvenido G. Ermac <br> Salome I. Palang
+        </p>
+        
+        <h2 class="col-span-full mt-20
+            text-4xl font-semibold leading-none
+                sm: 
+                md:text-5xl
+                xl:col-start-2">
+            Economy in Consolacion
+        </h2>
+        
+        <p class="mb-auto text-justify col-span-full
+                sm:
+                xl:col-start-2">
+                Discover the economic progress of Consolacion through this graph showcasing poverty
+                 incidence trends from 2006 to 2021. This visual data highlights the town’s economic journey, 
+                 providing insights into its growth and ongoing challenges.
+        </p>
+
+        
+        <p class="col-span-full mt-auto
+                text-3xl sm:col-start-2 md:text-4xl text-right leading-none
+                xl:text-right">
+                Poverty Incidence of Consolacion
+        </p>
+        <img class="col-span-full w-full object-contain min-h-50 max-h-100 
+                xl:col-span-6 xl:col-start-2"
+
+                    src = "Graph.jpg"
+                    alt = "Poverty Incidence of Consolacion graph ">
+
+        <h2 class="mb-auto text-left col-span-full text-4xl font-semibold
+            md: text-5xl
+            xl:col-start-2">
+                Road Network
+        </h2>
+        <p class="mb-auto text-justify col-span-full
+            sm:col-span-3
+            xl:col-start-2 xl:col-span-5">
+            This section highlights the total kilometers of roads in Consolacion, 
+            including national, provincial, municipal, and barangay roads. It provides 
+            an overview of the town's infrastructure, showing how its road network connects 
+            communities and supports daily activities.
+        </p>
+        <p class="text-2xl col-span-full
+            sm:col-start-2 sm:text-3xl
+            md:text-4xl
+            xl:col-start-3 xl:col-span-3">
+            National Roads <span class="text-[#D84315]"><br>1.5 km</span>
+        </p>
+        <p class="text-2xl col-span-full
+            sm:col-start-2 sm:text-3xl
+            md:text-4xl
+            xl:col-start-3 xl:col-span-3">
+            Provincial Roads <span class="text-[#D84315]"><br>2.5 km</span>
+        </p>
+        <p class="text-2xl col-span-full
+            sm:col-start-2 sm:text-3xl
+            md:text-4xl
+            xl:col-start-6 xl:col-span-3">
+            Municipal Roads <span class="text-[#D84315]"><br>2.0 km</span>
+        </p>
+        <p class="text-2xl col-span-full
+            sm:col-start-2 sm:text-3xl
+            md:text-4xl
+            xl:col-start-6 xl:col-span-3">
+            Barangay Roads <span class="text-[#D84315]"><br>43.7 km</span>
+        </p>
+
+        <h2 class="mb-auto text-left col-span-full text-4xl font-semibold
+            md:text-5xl
+            xl:col-start-2">
+            Education
+        </h2>
+        <p class="mb-auto text-justify col-span-full
+            sm:col-span-3
+            xl:col-start-2 xl:col-span-5">
+            Consolacion is home to a growing number of schools,
+             providing access to quality education for its residents. 
+             The town also hosts a vocational school and a college, offering 
+             specialized training and higher education opportunities to support 
+             personal and professional growth.
+        </p>
+        <p class="text-2xl col-span-full text-[#D84315] font-semibold
+            sm:text-3xl
+            md:text-4xl
+            xl:col-start-2">
+            16 <span class="text-[#1E1E1E] font-medium">Elementary schools</span>
+        </p>
+        <p class="text-2xl col-span-full text-[#D84315] font-semibold
+            sm:text-3xl sm:col-start-2
+            md:text-4xl
+            xl:col-start-6">
+            10 <span class="text-[#1E1E1E] font-medium">High schools</span>
+        </p>
+        <p class="text-2xl col-span-full text-[#1E1E1E]
+            sm:text-3xl sm:col-span-3
+            md:text-4xl
+            xl:col-start-2">
+            Vocational School:<span class="text-[#D84315] font-semibold"><br>Consolacion Computer Institute</span>
+        </p>
+        <p class="text-2xl col-span-full text-[#1E1E1E] leading-none
+            sm:text-3xl sm:col-start-2
+            md:text-4xl
+            xl:col-start-4">
+            College:<span class="text-[#D84315] font-semibold"><br>Cebu Technological University</span>
+        </p>
+        <p class="text-xl col-span-full text-[#D84315] leading-none -mt-6
+            sm:col-start-2
+            md:text-3xl
+            xl:col-start-4">
+            Consolacion Campus
+        </p>
+    
+</body>
+</html>
